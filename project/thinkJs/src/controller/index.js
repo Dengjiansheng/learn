@@ -6,4 +6,7 @@ module.exports = class extends Base {
     console.log(this.ctx.state.x);
     return this.display();
   }
+  otherAction() {
+    return this.display();
+  }
 };

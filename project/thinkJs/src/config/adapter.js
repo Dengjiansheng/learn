@@ -74,7 +74,7 @@ exports.view = {
   type: 'nunjucks',
   common: {
     viewPath: path.join(think.ROOT_PATH, 'view'),
-    sep: '_',
+    sep: '/',
     extname: '.html'
   },
   nunjucks: {

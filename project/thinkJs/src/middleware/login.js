@@ -4,5 +4,4 @@ module.exports = options => {
     // next();
     return next();
   };
-}
-;
+};
